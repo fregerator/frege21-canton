@@ -1,1 +1,4 @@
+Syndicated Lending
+Problem: The agent bank is assembling a syndicate of 10 banks to issue a large loan. Each bank wants to make sure that the borrower meets their internal risk criteria (for example, "revenue > X" or "debt ratio < Y"), but does not want to disclose these thresholds to other banks, and the borrower does not want to give everyone full financial statements.
 
+The Canton solution: The borrower's data (audited financial statements) is hosted in his "domain" with limited access. Each participating bank publishes an encrypted rule (smart contract) online for verification. Canton allows you to perform verification: "Does the borrower's private data set comply with Bank A's private rule?" The result (yes/no) becomes known only to Bank A and, possibly, to the agent for aggregation, but neither the raw data nor the rule is disclosed. The loan is being collected, all checks have been passed, b
